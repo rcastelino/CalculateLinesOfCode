@@ -2,13 +2,19 @@
 
 Python script: useful utility to calculate lines of code for all major languages (java, ruby, objective-c, python, javascript)
 
-Anyone who writes code wants to have less lines to meet the objective of the program. This utility script helps to identifying real lines of code and prints out type of file and language, comments (single and multi-line), empty / blank lines, actual lines of code and total LOC; for each file in the directory.
+## Objective: 
+Anyone who writes code wants to have less lines to meet the objective of the program. This utility script helps to identifying real lines of code and prints to console:
+- type of file and language
+- comments (single and multi-line)
+- empty / blank lines
+- actual lines of code
+- total LOC; for each file in the directory.
 
-# Usage:
+## Usage:
 - on MacOS / Linux, simply copy the executable in the code root direcotry and execute it (double click). 
 - on Windows, copy the .py file in the code root directory and execute it via command prompt. (Pre-req - python.exe to be installed. More details --> https://docs.python.org/3/faq/windows.html)
 
-# Supports Python version 2 and 3
+## Supports Python version 2 and 3
 
 ## Sample Console Output
 (This output is when executed from a directory having .py and .java file)
